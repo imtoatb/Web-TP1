@@ -1,0 +1,136 @@
+/* RESET DE BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+/* HEADER */
+header {
+    background-color: #2d6a4f; /* vert foncé */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a7f3d0; /* vert clair au survol */
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0fdf4; /* vert très clair */
+    color: #1b4332; /* vert foncé pour le texte */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.home-image{
+    display: center;
+    width: 100%;
+}
+
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 6px solid #95d5b2; /* petit accent vert */
+    border-right: 6px solid #95d5b2; /* petit accent vert */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #2d6a4f;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #40916c;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+/* APPEL À L'ACTION */
+.cta {
+    background-color: #d8f3dc;
+    text-align: center;
+    font-weight: bold;
+    border: 2px dashed #52b788;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.gas-emissions{
+    color: #555;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+.gas-emissions:hover {
+    color: #a7f3d0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #555;
+    border-top: 1px solid #ccc;
+}
+
+.footer-find-more{
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-find-more:hover {
+    color: #a7f3d0;
+}
