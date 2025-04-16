@@ -30,7 +30,7 @@ Server optimisation
 
 Choose green hosting
 Optimise server settings
-implement modern server technologies such as HTTP/2 or HTTP/3, which enable more efficient data transfers.
+Implement modern server technologies such as HTTP/2 or HTTP/3, which enable more efficient data transfers.
 
 
 Optimising the algorithm
